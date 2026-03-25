@@ -1,0 +1,16 @@
+{
+  "name": "windows-grep-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple grep-style command for Windows written in TypeScript.",
+  "bin": {
+    "grep": "dist/grep.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/grep.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
